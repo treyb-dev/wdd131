@@ -8,7 +8,6 @@ body {
 
 header {
     background-color: #6f6f6f;
-    /* padding: 2rem; */
     grid-column: 1 / 4;
     color: #f4f4f4;
 }
@@ -45,7 +44,6 @@ main {
     grid-template-columns: 3fr 1fr;
     padding: 2rem;
     gap: 1.5rem;
-    font: Merriweather;
 }
 
 h2,
