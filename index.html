@@ -1,11 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD131</title>
+    <title>WDD 131 - Dynamic Web Fundamentals - Ukpono Essien</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals project by Ukpono Essien. Explore my journey in web development, including personal insights, resources, and more.">
+    <meta name="author" content="Ukpono Essien">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <script src="scripts/getdates.js" defer></script>
 </head>
+
 <body>
-    <h1>WDD 131</h1>
+    <header>
+        <h1>WDD 131 - Dynamic Web Fundamentals - <span class="name">Ukpono Essien</span></h1>
+        <nav>
+            <a href="www.linkedin.com/in/ukponobassey1">LinkedIn</a>
+            <a href="https://byupw.instructure.com/">Canvas</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/nt/eph/1?lang=eng">Scripture</a>
+            <a href="contact-us.html">Final Project</a>
+        </nav>
+    </header>
+    <main>
+        <section class="card">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>I'm Ukpono Bassey Essien, a detail-oriented, goal-driven fast learner from Akwa Ibom State,
+                    currently living in Abuja, Nigeria. I enjoy watching movies, especially Korean ones, and
+                    I'm into video games and outdoor activities like tennis. I also love listening to
+                    self-improvement and business-related podcasts.</p>
+                <img src="images/profile.jpg" alt="Ukpono Essien" class="profile-img">
+            </div>
+        
+            <div class="nigeria-section">
+                <h3>Nigeria</h3>
+                <div class="nigeria-content">
+                    <figure>
+                        <img src="images/nigeria-flag.jpeg" alt="Nigeria Flag">
+                        <figcaption>Flag of Nigeria</figcaption>
+                    </figure>
+                    <p>Nigeria, Africa's most populous country, has over 200 million people and 250+ ethnic groups.
+                        Its economy thrives on oil, agriculture, and technology. Lagos is its largest city, while Abuja
+                        is the capital. Known for Nollywood and Afrobeat, Nigeria faces challenges like corruption and
+                        insecurity but remains a key player in Africa's economy and culture.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="card">
+            <h2>Web Dev Resources</h2>
+            <ul>
+                <li><a href="#">Dev.to Community</a></li>
+                <li><a href="#">Smashing Magazine</a></li>
+                <li><a href="#">CSS Tricks</a></li>
+                <li><a href="#">W3 Schools</a></li>
+                <li><a href="#">Udemy</a></li>
+                <li><a href="#">Image Placeholder</a></li>
+            </ul>
+        </section>
+    </main>
+        
+    <footer>
+        <p id="copyright"> 🌴 Ukpono Essien 🌴 Nigeria</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
+
 </html>

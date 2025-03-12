@@ -1,0 +1,129 @@
+body {
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+    font-family: 'Merriweather', serif;
+    color: #333;
+    font-size: 16px;
+}
+
+header {
+    background-color: #6f6f6f;
+    /* padding: 2rem; */
+    grid-column: 1 / 4;
+    color: #f4f4f4;
+}
+
+h1 {
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #010101;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+nav a:hover {
+    color: #6f6f6f;
+}
+
+
+main {
+    display: grid;
+    background: #f4f4f4;
+    grid-template-columns: 3fr 1fr;
+    padding: 2rem;
+    gap: 1.5rem;
+    font: Merriweather;
+}
+
+h2,
+h3{
+    color: black;
+    text-align: center;
+    margin-top: 0;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+}
+
+.name {
+    color: wheat;
+}
+
+.card {
+    background-color: #e1e1e1;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-top: 0.5rem;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.about-content img {
+    width: 120px;
+    border-radius: 8px;
+    margin-left: 15px;
+}
+
+.nigeria-section {
+    padding-top: 1rem;
+    border-top: 2px solid #ccc;
+}
+
+.nigeria-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nigeria-content img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.nigeria-section figcaption {
+    font-style: italic;
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+    margin-top: 5px;
+}
+
+footer {
+    background-color: #6f6f6f;
+    padding: 1rem;
+    text-align: center;
+    grid-column: 1 / 3;
+    font-family: 'Merriweather', serif;
+    color: white;         
+    width: 100%;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+#lastModified {
+    color: wheat;
+    font-weight: bold;
+    font-size: 14px;
+}
