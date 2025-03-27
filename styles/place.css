@@ -1,0 +1,75 @@
+/* Mobile First Styles */
+:root {
+    --primary-color: #008000;
+    /* Green */
+    --secondary-color: #ffffff;
+    /* White */
+    --text-color: #333;
+    --bg-color: #f4f4f4;
+    --overlay-bg: rgba(255, 255, 255, 0.85);
+}
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    width: 100%;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Data & Weather Sections */
+.data,
+.weather {
+    background-color: var(--overlay-bg);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    margin: 15px auto;
+    width: 90%;
+}
+
+/* Section Titles */
+.data h2,
+.weather h2 {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Weather Icon */
+#weather-icon img {
+    width: 40px;
+    height: auto;
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 10px;
+    font-size: 14px;
+}
