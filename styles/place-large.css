@@ -34,7 +34,6 @@
         position: absolute;
     }
 
-    
     .data {
         top: 150px;
         left: 20px;
@@ -45,7 +44,6 @@
         right: 20px;
     }
 
-
     .data h2,
     .weather h2 {
         background-color: #176c3c;
@@ -54,7 +52,6 @@
         border-radius: 5px;
         display: inline-block;
     }
-
 
     #weather-icon img {
         width: 50px;

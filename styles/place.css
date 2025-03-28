@@ -1,13 +1,38 @@
+/* Header */
+header {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    /* Added this line */
+}
 
+/* Header - Adding a Pseudo-element */
+header::before {
+    content: "🌍";
+    font-size: 30px;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+}
+
+/* Mobile First Styles */
 :root {
     --primary-color: #008000;
+    /* Green */
     --secondary-color: #ffffff;
+    /* White */
     --text-color: #333;
     --bg-color: #f4f4f4;
     --overlay-bg: rgba(255, 255, 255, 0.85);
     --font-family: 'Roboto', sans-serif;
 }
 
+/* General Styling */
 body {
     font-family: var(--font-family);
     background-color: var(--bg-color);
@@ -17,14 +42,17 @@ body {
     text-align: center;
 }
 
+/* Header */
 header {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     padding: 15px;
     font-size: 24px;
     font-weight: bold;
+    position: relative;
 }
 
+/* Hero Section */
 .hero {
     width: 100%;
     text-align: center;
@@ -36,6 +64,7 @@ header {
     object-fit: cover;
 }
 
+/* Data & Weather Sections */
 .data,
 .weather {
     background-color: var(--overlay-bg);
@@ -46,6 +75,7 @@ header {
     width: 90%;
 }
 
+/* Section Titles */
 .data h2,
 .weather h2 {
     background-color: var(--primary-color);
@@ -54,14 +84,27 @@ header {
     border-radius: 10px 10px 0 0;
 }
 
+/* Weather Icon */
 #weather-icon img {
     width: 40px;
     height: auto;
 }
 
+/* Footer */
 .footer {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     padding: 10px;
     font-size: 14px;
+    position: relative;
 }
+
+.footer::after {
+    content: " 🌍 Nigeria | Stay Connected";
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font-size: 12px;
+    color: #fff;
+}
+
