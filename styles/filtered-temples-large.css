@@ -1,0 +1,52 @@
+/* Styles for large screens */
+@media (min-width: 640px) {
+    h1 {
+        font-size: 2.5rem;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    #menu {
+        display: none;
+       
+    }
+
+    .navigation {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .navigation a {
+        display: block;
+        padding: 0.5rem 1.2rem;
+        color: white;
+        font-weight: 700;
+    }
+
+    .temple-card img {
+        max-width: 100%;
+        border-radius: 8px;
+        height: auto;
+        display: block;
+    }
+ 
+    .temple-card {
+        border-radius: 8px;
+        border: 1px solid whitesmoke;
+        background-color: whitesmoke;
+        padding: 1rem;
+    }
+
+    .temple-container-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        padding: 10px;
+        
+    }
+}
