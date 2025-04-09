@@ -81,6 +81,13 @@ main img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.temple-card {
+    border-radius: 8px;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    padding: 1rem;
+}
+
 figure {
     text-align: center;
     margin: .5rem;
