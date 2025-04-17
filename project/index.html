@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrewScout</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/brewscout.css">
+    <link rel="stylesheet" href="styles/brewscout-large.css">
+    <script src="scripts/brewscout.js" defer></script>
+</head>
+
+<body>
+    <!-- Header Section with Navigation -->
+    <header>
+        <div class="logo">
+            <img src="images/logo.webp" alt="BrewScout Logo" loading="lazy" width="100" height="100">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="add-coffee-shop.html">Add a Coffee Shop</a></li>
+            </ul>
+        </nav>
+        <!-- Sign Up Button (now wrapped in an <a> tag) -->
+        <a href="contact.html">
+            <button class="sign-up-btn">Sign Up</button>
+        </a>
+
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <!-- Hero Image Section -->
+        <section class="hero">
+            <img src="images/hero-image.webp" alt="Coffee Shop Interior" class="hero-img" loading="lazy">
+            <div class="hero-text">
+                <h1>Discover the Best Local Coffee Shops Near You</h1>
+                <p>Your perfect coffee experience is just a click away</p>
+            </div>
+        </section>
+
+        <!-- Main Content -->
+        <section class="main-content">
+            <!-- Search and Filter Section -->
+            <div class="search-section">
+                <label for="location">Location:</label>
+                <input type="text" id="location" placeholder="Enter location...">
+
+                <label for="coffee-search">Find a coffee shop:</label>
+                <input type="text" id="coffee-search" placeholder="Search coffee shops...">
+
+                <label for="open-now">Open now:</label>
+                <select id="open-now">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+
+            <!-- Featured Coffee Shops Section -->
+            <h2>Featured Coffee Shops</h2>
+            <div class="featured-shops" id="coffee-shops-list">
+                <!-- Dynamically loaded coffee shops will appear here -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 BrewScout | Ukpono Essien</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+@media screen and (max-width: 768px) {
+    .contact-info h1 {
+        font-size: 30px;
+    }
+
+    .contact-form h2 {
+        font-size: 24px;
+    }
+
+    .contact-form form {
+        width: 90%;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 14px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}

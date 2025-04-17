@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add a Coffee Shop | BrewScout</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/add-coffee-shop.css">
+    <link rel="stylesheet" href="styles/add-coffee-shop-large.css">
+    <script src="scripts/add-coffee-shop.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="images/logo.webp" alt="BrewScout Logo" loading="lazy" width="100" height="100">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="add-coffee-shop.html">Add a Coffee Shop</a></li>
+            </ul>
+        </nav>
+    
+        <a href="contact.html">
+            <button class="sign-up-btn">Sign Up</button>
+        </a>
+
+    </header>
+
+    
+    <main>
+        <section class="add-coffee-shop">
+            <div class="form-container">
+                <h1>Add a Coffee Shop</h1>
+                <p>We would love to feature your coffee shop on BrewScout! Please fill out the details below to get started.
+                </p>
+        
+        
+                <div id="success-message" class="success-message" style="display: none;">
+                    <p>Thank you for submitting your coffee shop! It will be reviewed shortly.</p>
+                </div>
+        
+        
+                <form id="add-coffee-shop-form">
+                    <label for="shop-name">Coffee Shop Name:</label>
+                    <input type="text" id="shop-name" name="shop-name" placeholder="Enter the name of the coffee shop" required>
+        
+                    <label for="shop-description">Description:</label>
+                    <textarea id="shop-description" name="shop-description" placeholder="Describe your coffee shop" rows="6"
+                        required></textarea>
+        
+                    <label for="shop-location">Location:</label>
+                    <input type="text" id="shop-location" name="shop-location"
+                        placeholder="Enter the location of your coffee shop" required>
+        
+                    <label for="shop-hours">Opening Hours:</label>
+                    <input type="text" id="shop-hours" name="shop-hours" placeholder="e.g., Mon-Sun: 7AM - 9PM" required>
+        
+                    <label for="shop-phone">Phone Number:</label>
+                    <input type="tel" id="shop-phone" name="shop-phone" placeholder="Enter the contact phone number" required>
+        
+                    <label for="shop-website">Website (Optional):</label>
+                    <input type="url" id="shop-website" name="shop-website" placeholder="https://www.yourcoffeeshop.com">
+        
+                    <label for="shop-image">Coffee Shop Image (Optional):</label>
+                    <input type="file" id="shop-image" name="shop-image" accept="image/*">
+        
+                    <button type="submit" class="submit-btn">Add Coffee Shop</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 BrewScout | Ukpono Essien</p>
+    </footer>
+</body>
+
+</html>

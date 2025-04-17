@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | BrewScout</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/contact-large.css">
+    <script src="scripts/contact.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="images/logo.webp" alt="BrewScout Logo" loading="lazy" width="100" height="100">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="add-coffee-shop.html">Add a Coffee Shop</a></li>
+            </ul>
+        </nav>
+        <a href="contact.html">
+            <button class="sign-up-btn">Sign Up</button>
+        </a>
+
+    </header>
+
+    <main>
+        <section class="contact-us">
+            <div class="contact-info">
+                <h1>Contact Us</h1>
+                <p>If you have any questions, suggestions, or just want to reach out, feel free to send us a message. We
+                    would love to hear from you!</p>
+                <p>Here's how you can contact us:</p>
+                <ul>
+                    <li><strong>Email:</strong> support@brewscout.com</li>
+                    <li><strong>Phone:</strong> +1 (555) 123-4567</li>
+                    <li><strong>Address:</strong> 123 Coffee Street, BrewCity, BC 45678</li>
+                </ul>
+            </div>
+        
+            <div class="contact-form">
+                <h2>Send Us a Message</h2>
+                
+                <form id="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+        
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+        
+                    <button type="submit">Submit</button>
+                </form>
+        
+                
+                <div id="success-message" style="display: none;">
+                    <p>Thank you for contacting us! Your message has been received.</p>
+                </div>
+        
+            </div>
+        </section>
+
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 BrewScout | Ukpono Essien</p>
+    </footer>
+</body>
+</html>
